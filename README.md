@@ -13,14 +13,6 @@ The following **technologies** were used to complete this website:
 * Bootstrap 4
 * Google Font
 
-## Video Walkthrough 
-
-Below is a link to a walkthrough of the website:
-
-<img src= 'https://i.imgur.com/gbcncW7.gif' title='Video Walkthrough' alt='Video Walkthrough' />
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
-
 ## Link 
 
 <a href= 'http://cheryville.com/webdesign/finalProject/index.html'>New York City Subway</a>
