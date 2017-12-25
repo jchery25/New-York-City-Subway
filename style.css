@@ -1,0 +1,387 @@
+html { 
+/*  background: url(images/background.jpg) no-repeat center center fixed;*/
+  background: url(images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+body{
+   font-family: 'Raleway', sans-serif;
+   background-color: transparent;
+}
+ 
+p{
+  font-family: 'Raleway', sans-serif;
+  line-height: 35px;
+  letter-spacing: 1px;
+}
+
+.modal-body > p{
+    text-align: left;
+}
+
+.nav{
+    margin: 0 auto;
+}
+
+.nav-opacity{
+   background-color: rgba(181,129,101, 0.1);
+}
+
+ul{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 15px;
+    overflow: hidden;
+}
+
+li > a{
+    color: #061F2A;
+}
+
+.start{
+    color: #F0DBCD;
+    font-size: 20px;
+    margin-top: 250px;
+    text-align: center;
+}
+
+#cursive{
+    font-family: cursive;
+    font-size: 40px;
+}
+
+.start > p{
+    padding: 10px;
+}
+
+.button{
+    letter-spacing: 5px;
+    font-size: 15px;
+    overflow: hidden;
+    text-transform: uppercase;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: 1px solid #F0DBCD;
+    color: #fff;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    width: 150px;
+    padding: 10px;
+    opacity: 1;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+}
+
+button:hover {
+  color: black;
+  background-color: rgba(255,255,255,0.8);
+  cursor: pointer;
+}
+
+.color{
+    text-align: center;
+    color: #000;
+    background-color: rgba(181,129,101, 0.3);
+}
+
+/*                             Lines Page                       */
+.container-fluid{
+    padding: 0px;
+}
+
+.lines{
+    text-outline: 2px 2px #ff0000;
+    text-align: center;
+    margin-top: 5%;
+    color: #fff;
+}
+
+.lines > p{
+    font-family: cursive;
+    font-size: 40px;
+}
+
+.context{
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.card{
+    background-color: rgba(181,129,101, 0.4);
+    color: white;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.heading{
+    font-family: 'Roboto', sans-serif;
+}
+
+.train_info{
+    width:300px;
+}
+.context > .row{
+    margin-bottom: 10%;
+}
+
+.card{
+    width: 300px;
+    height: 150px;
+}
+
+.color1{
+    color: #fff;
+    background-color: #2850ad;
+}
+
+.color1:hover{
+    color: #2850ad;
+    background-color: #fff; 
+}
+
+.color2{
+    color: #fff;
+    background-color: #ff6319;
+}
+
+.color2:hover{
+    color: #ff6319;
+    background-color: #fff;
+}
+
+.color3{
+    color: #fff;
+    background-color: #6cbe45;
+}
+
+.color3:hover{
+   color: #6cbe45;
+   background-color: #fff; 
+}
+
+.color4{
+   color: #fff;
+   background-color: #a7a9ac; 
+}
+
+.color4:hover{
+   color: #a7a9ac;
+   background-color: #fff; 
+}
+
+.color5{
+   color: #fff;
+   background-color: #996633; 
+}
+
+.color5:hover{
+   color: #996633;
+   background-color: #fff; 
+}
+
+.color5:hover > #orange{
+    color:#ff6319;
+}
+
+.color6{
+   color: #fff;
+   background-color: #fccc0a; 
+}
+
+.color6:hover{
+    color: #fccc0a;
+   background-color: #fff; 
+}
+
+.color7{
+   color: #fff;
+   background-color: #ee352e; 
+}
+
+.color7:hover{
+    color: #ee352e;
+   background-color: #fff; 
+}
+
+.color8{
+   color: #fff;
+   background-color: #00933c; 
+}
+
+.color8:hover{
+    color: #00933c;
+   background-color: #fff; 
+}
+
+.color9{
+   color: #fff;
+   background-color: #b933ad; 
+}
+
+.color9:hover{
+    color: #b933ad;
+   background-color: #fff; 
+}
+
+.color10{
+   color: #fff;
+   background-color: #808183; 
+}
+
+.color10:hover{
+    color: #808183;
+   background-color: #fff; 
+}
+
+/*                             Contact Page                       */
+
+.contact{
+    color: #F0DBCD;
+    font-size: 25px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    width: 350px;
+    height: 450px;
+    padding:30px;
+    border: 1px solid rgba(181,129,101, 0.1);
+    border-radius: 5px;
+    background-clip: padding-box;
+    background: rgba(0, 0, 0, 0.5); 
+    box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+    overflow: hidden; 
+}
+
+textarea{
+    background: rgba(255, 255, 255, 0.4);
+    resize: none;
+    width: 280px;
+    height: 100px;
+    border: 1px solid rgba(255,255,255,.6);
+    border-radius: 4px;
+    background-clip: padding-box; 
+    display:block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color:#fff;
+    padding-left:45px;
+    padding-right:20px;
+    padding-top:12px;
+    margin-bottom:20px;
+    overflow:hidden;
+}
+
+input {
+    width: 280px;
+    height: 48px;
+    border: 1px solid rgba(255,255,255,.4);
+    border-radius: 4px;
+    background-clip: padding-box; 
+    display:block;
+    font-family: 'Raleway', sans-serif;
+    font-size:18px;
+    color:#fff;
+    padding-left:20px;
+    padding-right:20px;
+    margin-bottom:20px;
+}
+
+input[type=submit] {
+    cursor:pointer;
+}
+
+input.name {
+	  background: rgba(255, 255, 255, 0.4);
+	  padding-left:45px;
+}
+
+input.email {
+	  background: rgba(255, 255, 255, 0.4);
+	  padding-left:45px;
+}
+
+input.message {
+	  background: rgba(255, 255, 255, 0.4);
+	  padding-left:45px;
+}
+
+::-webkit-input-placeholder {
+	  color: #fff;
+}
+
+input:focus, textarea:focus { 
+	  background-color: rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+    -webkit-box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+    box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+	  overflow: hidden; 
+}
+
+.send {
+    width: 138px;
+    height: 44px;
+    border-radius: 4px;
+    float:right;
+    border: 1px solid #253737;
+    background: linear-gradient(#C1ABA3, #000);
+    padding: 10.5px 21px;
+    border-radius: 6px;
+    box-shadow: rgba(255,255,255,0.1) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+    text-shadow: #333333 0 1px 0;
+    color: #e1e1e1;
+}
+
+.send:hover {
+    border: 1px solid #253737;
+    text-shadow: #333333 0 1px 0;
+    background: #416b68;
+    background: -webkit-linear-gradient(top, #C1ABA3, #000);
+    color: #fff;
+ }
+
+
+@media only screen and (max-width: 800px) {
+
+    #cursive{
+        line-height: 35px;
+        color: white;
+    }
+    
+    ul{
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        font-size: 10px;
+        overflow: hidden;
+    }
+    
+    li > a{
+        color: #fff;
+    }
+    .start, .modal-body > p{
+        max-width: 400px;
+        font-size: 15px;
+    }
+    
+    .lines{
+        margin-top: 10%;
+    }
+    
+    .lines > p{
+        color: #F0DBCD;
+        font-size: 30px;
+    }
+}
