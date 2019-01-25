@@ -15,7 +15,7 @@ The following **technologies** were used to complete this website:
 
 ## Link 
 
-<a href= 'http://cheryville.com/webdesign/finalProject/index.html'>New York City Subway</a>
+<a href= 'https://jchery25.github.io/nyc_subway/'>New York City Subway</a>
 
 
 ## Ackowledgement
